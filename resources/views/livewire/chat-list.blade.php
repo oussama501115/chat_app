@@ -1,5 +1,3 @@
-<div>
-    {{-- Be like water. --}}
-
-    <p>chat_list</p>
+<div wire:poll>
+    Current time: {{ now() }}
 </div>

@@ -1,3 +1,22 @@
 .test {
   font-size: 60px;
 }
+
+.users {
+  height: 89vh;
+  background-color: #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.users ul {
+  width: 50%;
+  margin-top: 100px;
+}
+.users ul li {
+  cursor: pointer;
+  padding-top: 18px;
+}

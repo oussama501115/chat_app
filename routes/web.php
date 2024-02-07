@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Livewire\CreatChat;
+use App\Http\Livewire\Chat;
 use App\Http\Livewire\Main;
 
 /*
@@ -20,7 +20,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/users',[CreatChat::class , 'render'])->name('users');
+Route::get('/users',[Chat::class , 'render'])->name('users');
 Route::get('/chat{key?}',[Main::class , 'render'])->name('chat');
 
 Route::get('/dashboard', function () {

@@ -1,3 +1,5 @@
-<div>
-    {{-- Knowing others is intelligence; knowing yourself is true wisdom. --}}
-</div>
+<x-app-layout>
+   
+           <livewire:creat-chat/> 
+      
+</x-app-layout>
